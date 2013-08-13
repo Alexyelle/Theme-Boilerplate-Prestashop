@@ -267,10 +267,10 @@ a:focus {
   padding: 4px;
   background-color: #fff;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* line 51, includes/_scaffolding.scss */
@@ -456,7 +456,7 @@ a:focus {
   box-sizing: border-box;
   float: left;
   margin-left: 2.12766%;
-  *margin-left: 2.12766%;
+  *margin-left: 2.07447%;
 }
 /* line 623, includes/_mixins.scss */
 .row-fluid [class*="span"]:first-child {
@@ -469,182 +469,182 @@ a:focus {
 /* line 640, includes/_mixins.scss */
 .row-fluid .span1 {
   width: 6.38298%;
-  *width: 6.38298%;
+  *width: 6.32979%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span2 {
   width: 14.89362%;
-  *width: 14.89362%;
+  *width: 14.84043%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span3 {
   width: 23.40426%;
-  *width: 23.40426%;
+  *width: 23.35106%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span4 {
   width: 31.91489%;
-  *width: 31.91489%;
+  *width: 31.8617%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span5 {
   width: 40.42553%;
-  *width: 40.42553%;
+  *width: 40.37234%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span6 {
   width: 48.93617%;
-  *width: 48.93617%;
+  *width: 48.88298%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span7 {
   width: 57.44681%;
-  *width: 57.44681%;
+  *width: 57.39362%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span8 {
   width: 65.95745%;
-  *width: 65.95745%;
+  *width: 65.90426%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span9 {
   width: 74.46809%;
-  *width: 74.46809%;
+  *width: 74.41489%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span10 {
   width: 82.97872%;
-  *width: 82.97872%;
+  *width: 82.92553%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span11 {
   width: 91.48936%;
-  *width: 91.48936%;
+  *width: 91.43617%;
 }
 /* line 640, includes/_mixins.scss */
 .row-fluid .span12 {
   width: 100%;
-  *width: 100%;
+  *width: 99.94681%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset1 {
   margin-left: 10.6383%;
-  *margin-left: 10.6383%;
+  *margin-left: 10.53191%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset1:first-child {
   margin-left: 8.51064%;
-  *margin-left: 8.51064%;
+  *margin-left: 8.40426%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset2 {
   margin-left: 19.14894%;
-  *margin-left: 19.14894%;
+  *margin-left: 19.04255%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset2:first-child {
   margin-left: 17.02128%;
-  *margin-left: 17.02128%;
+  *margin-left: 16.91489%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset3 {
   margin-left: 27.65957%;
-  *margin-left: 27.65957%;
+  *margin-left: 27.55319%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset3:first-child {
   margin-left: 25.53191%;
-  *margin-left: 25.53191%;
+  *margin-left: 25.42553%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset4 {
   margin-left: 36.17021%;
-  *margin-left: 36.17021%;
+  *margin-left: 36.06383%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset4:first-child {
   margin-left: 34.04255%;
-  *margin-left: 34.04255%;
+  *margin-left: 33.93617%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset5 {
   margin-left: 44.68085%;
-  *margin-left: 44.68085%;
+  *margin-left: 44.57447%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset5:first-child {
   margin-left: 42.55319%;
-  *margin-left: 42.55319%;
+  *margin-left: 42.44681%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset6 {
   margin-left: 53.19149%;
-  *margin-left: 53.19149%;
+  *margin-left: 53.08511%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset6:first-child {
   margin-left: 51.06383%;
-  *margin-left: 51.06383%;
+  *margin-left: 50.95745%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset7 {
   margin-left: 61.70213%;
-  *margin-left: 61.70213%;
+  *margin-left: 61.59574%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset7:first-child {
   margin-left: 59.57447%;
-  *margin-left: 59.57447%;
+  *margin-left: 59.46809%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset8 {
   margin-left: 70.21277%;
-  *margin-left: 70.21277%;
+  *margin-left: 70.10638%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset8:first-child {
   margin-left: 68.08511%;
-  *margin-left: 68.08511%;
+  *margin-left: 67.97872%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset9 {
   margin-left: 78.7234%;
-  *margin-left: 78.7234%;
+  *margin-left: 78.61702%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset9:first-child {
   margin-left: 76.59574%;
-  *margin-left: 76.59574%;
+  *margin-left: 76.48936%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset10 {
   margin-left: 87.23404%;
-  *margin-left: 87.23404%;
+  *margin-left: 87.12766%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset10:first-child {
   margin-left: 85.10638%;
-  *margin-left: 85.10638%;
+  *margin-left: 85.0%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset11 {
   margin-left: 95.74468%;
-  *margin-left: 95.74468%;
+  *margin-left: 95.6383%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset11:first-child {
   margin-left: 93.61702%;
-  *margin-left: 93.61702%;
+  *margin-left: 93.51064%;
 }
 /* line 646, includes/_mixins.scss */
 .row-fluid .offset12 {
   margin-left: 104.25532%;
-  *margin-left: 104.25532%;
+  *margin-left: 104.14894%;
 }
 /* line 647, includes/_mixins.scss */
 .row-fluid .offset12:first-child {
   margin-left: 102.12766%;
-  *margin-left: 102.12766%;
+  *margin-left: 102.02128%;
 }
 
 /* line 14, includes/_grid.scss */
@@ -701,9 +701,9 @@ p {
 /* line 12, includes/_type.scss */
 .lead {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 200;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 24, includes/_type.scss */
@@ -821,22 +821,22 @@ h3 {
 
 /* line 77, includes/_type.scss */
 h1 {
-  font-size: 28px;
+  font-size: 38.5px;
 }
 
 /* line 78, includes/_type.scss */
 h2 {
-  font-size: 28px;
+  font-size: 31.5px;
 }
 
 /* line 79, includes/_type.scss */
 h3 {
-  font-size: 14px;
+  font-size: 24.5px;
 }
 
 /* line 80, includes/_type.scss */
 h4 {
-  font-size: 14px;
+  font-size: 17.5px;
 }
 
 /* line 81, includes/_type.scss */
@@ -846,17 +846,17 @@ h5 {
 
 /* line 82, includes/_type.scss */
 h6 {
-  font-size: 0px;
+  font-size: 11.9px;
 }
 
 /* line 84, includes/_type.scss */
 h1 small {
-  font-size: 14px;
+  font-size: 24.5px;
 }
 
 /* line 85, includes/_type.scss */
 h2 small {
-  font-size: 14px;
+  font-size: 17.5px;
 }
 
 /* line 86, includes/_type.scss */
@@ -872,7 +872,7 @@ h4 small {
 /* line 93, includes/_type.scss */
 .page-header {
   padding-bottom: 9px;
-  margin: 20px 0 20px;
+  margin: 20px 0 30px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -999,7 +999,7 @@ blockquote {
 /* line 196, includes/_type.scss */
 blockquote p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 17.5px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -1085,7 +1085,7 @@ pre {
   white-space: pre-wrap;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1128,7 +1128,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 40px;
   color: #333333;
   border: 0;
@@ -1136,7 +1136,7 @@ legend {
 }
 /* line 33, includes/_forms.scss */
 legend small {
-  font-size: 0px;
+  font-size: 15px;
   color: #999999;
 }
 
@@ -1227,9 +1227,9 @@ input[type="color"],
 .uneditable-input {
   background-color: white;
   border: 1px solid #cccccc;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
   -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
   -o-transition: border linear 0.2s, box-shadow linear 0.2s;
@@ -1252,13 +1252,13 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(82, 168, 236, 0);
+  border-color: rgba(82, 168, 236, 0.8);
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(82, 168, 236, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(82, 168, 236, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(82, 168, 236, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
 /* line 136, includes/_forms.scss */
@@ -1322,9 +1322,9 @@ input[type="checkbox"]:focus {
   color: #999999;
   background-color: #fcfcfc;
   border-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
   cursor: not-allowed;
 }
 
@@ -1609,18 +1609,18 @@ input[type="checkbox"][readonly] {
 .control-group.warning select,
 .control-group.warning textarea {
   border-color: #c09853;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 180, includes/_mixins.scss */
 .control-group.warning input:focus,
 .control-group.warning select:focus,
 .control-group.warning textarea:focus {
   border-color: #a47e3c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #dbc59e;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #dbc59e;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #dbc59e;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
 }
 /* line 187, includes/_mixins.scss */
 .control-group.warning .input-prepend .add-on,
@@ -1649,18 +1649,18 @@ input[type="checkbox"][readonly] {
 .control-group.error select,
 .control-group.error textarea {
   border-color: #b94a48;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 180, includes/_mixins.scss */
 .control-group.error input:focus,
 .control-group.error select:focus,
 .control-group.error textarea:focus {
   border-color: #953b39;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #d59392;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #d59392;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #d59392;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
 }
 /* line 187, includes/_mixins.scss */
 .control-group.error .input-prepend .add-on,
@@ -1689,18 +1689,18 @@ input[type="checkbox"][readonly] {
 .control-group.success select,
 .control-group.success textarea {
   border-color: #468847;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 180, includes/_mixins.scss */
 .control-group.success input:focus,
 .control-group.success select:focus,
 .control-group.success textarea:focus {
   border-color: #356635;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #7aba7b;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #7aba7b;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #7aba7b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
 }
 /* line 187, includes/_mixins.scss */
 .control-group.success .input-prepend .add-on,
@@ -1729,18 +1729,18 @@ input[type="checkbox"][readonly] {
 .control-group.info select,
 .control-group.info textarea {
   border-color: #3a87ad;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 180, includes/_mixins.scss */
 .control-group.info input:focus,
 .control-group.info select:focus,
 .control-group.info textarea:focus {
   border-color: #2d6987;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #7ab5d3;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #7ab5d3;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 6px #7ab5d3;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
 }
 /* line 187, includes/_mixins.scss */
 .control-group.info .input-prepend .add-on,
@@ -2488,22 +2488,22 @@ table th[class*="span"],
 
 /* line 53, includes/_sprites.scss */
 .icon-music {
-  background-position: -24px 0;
+  background-position: -24px  0;
 }
 
 /* line 54, includes/_sprites.scss */
 .icon-search {
-  background-position: -48px 0;
+  background-position: -48px  0;
 }
 
 /* line 55, includes/_sprites.scss */
 .icon-envelope {
-  background-position: -72px 0;
+  background-position: -72px  0;
 }
 
 /* line 56, includes/_sprites.scss */
 .icon-heart {
-  background-position: -96px 0;
+  background-position: -96px  0;
 }
 
 /* line 57, includes/_sprites.scss */
@@ -2583,27 +2583,27 @@ table th[class*="span"],
 
 /* line 73, includes/_sprites.scss */
 .icon-home {
-  background-position: 0 -24px;
+  background-position: 0      -24px;
 }
 
 /* line 74, includes/_sprites.scss */
 .icon-file {
-  background-position: -24px -24px;
+  background-position: -24px  -24px;
 }
 
 /* line 75, includes/_sprites.scss */
 .icon-time {
-  background-position: -48px -24px;
+  background-position: -48px  -24px;
 }
 
 /* line 76, includes/_sprites.scss */
 .icon-road {
-  background-position: -72px -24px;
+  background-position: -72px  -24px;
 }
 
 /* line 77, includes/_sprites.scss */
 .icon-download-alt {
-  background-position: -96px -24px;
+  background-position: -96px  -24px;
 }
 
 /* line 78, includes/_sprites.scss */
@@ -2683,27 +2683,27 @@ table th[class*="span"],
 
 /* line 94, includes/_sprites.scss */
 .icon-tag {
-  background-position: 0 -48px;
+  background-position: 0      -48px;
 }
 
 /* line 95, includes/_sprites.scss */
 .icon-tags {
-  background-position: -25px -48px;
+  background-position: -25px  -48px;
 }
 
 /* line 96, includes/_sprites.scss */
 .icon-book {
-  background-position: -48px -48px;
+  background-position: -48px  -48px;
 }
 
 /* line 97, includes/_sprites.scss */
 .icon-bookmark {
-  background-position: -72px -48px;
+  background-position: -72px  -48px;
 }
 
 /* line 98, includes/_sprites.scss */
 .icon-print {
-  background-position: -96px -48px;
+  background-position: -96px  -48px;
 }
 
 /* line 99, includes/_sprites.scss */
@@ -2783,27 +2783,27 @@ table th[class*="span"],
 
 /* line 115, includes/_sprites.scss */
 .icon-pencil {
-  background-position: 0 -72px;
+  background-position: 0      -72px;
 }
 
 /* line 116, includes/_sprites.scss */
 .icon-map-marker {
-  background-position: -24px -72px;
+  background-position: -24px  -72px;
 }
 
 /* line 117, includes/_sprites.scss */
 .icon-adjust {
-  background-position: -48px -72px;
+  background-position: -48px  -72px;
 }
 
 /* line 118, includes/_sprites.scss */
 .icon-tint {
-  background-position: -72px -72px;
+  background-position: -72px  -72px;
 }
 
 /* line 119, includes/_sprites.scss */
 .icon-edit {
-  background-position: -96px -72px;
+  background-position: -96px  -72px;
 }
 
 /* line 120, includes/_sprites.scss */
@@ -2883,27 +2883,27 @@ table th[class*="span"],
 
 /* line 136, includes/_sprites.scss */
 .icon-plus-sign {
-  background-position: 0 -96px;
+  background-position: 0      -96px;
 }
 
 /* line 137, includes/_sprites.scss */
 .icon-minus-sign {
-  background-position: -24px -96px;
+  background-position: -24px  -96px;
 }
 
 /* line 138, includes/_sprites.scss */
 .icon-remove-sign {
-  background-position: -48px -96px;
+  background-position: -48px  -96px;
 }
 
 /* line 139, includes/_sprites.scss */
 .icon-ok-sign {
-  background-position: -72px -96px;
+  background-position: -72px  -96px;
 }
 
 /* line 140, includes/_sprites.scss */
 .icon-question-sign {
-  background-position: -96px -96px;
+  background-position: -96px  -96px;
 }
 
 /* line 141, includes/_sprites.scss */
@@ -2983,27 +2983,27 @@ table th[class*="span"],
 
 /* line 157, includes/_sprites.scss */
 .icon-exclamation-sign {
-  background-position: 0 -120px;
+  background-position: 0      -120px;
 }
 
 /* line 158, includes/_sprites.scss */
 .icon-gift {
-  background-position: -24px -120px;
+  background-position: -24px  -120px;
 }
 
 /* line 159, includes/_sprites.scss */
 .icon-leaf {
-  background-position: -48px -120px;
+  background-position: -48px  -120px;
 }
 
 /* line 160, includes/_sprites.scss */
 .icon-fire {
-  background-position: -72px -120px;
+  background-position: -72px  -120px;
 }
 
 /* line 161, includes/_sprites.scss */
 .icon-eye-open {
-  background-position: -96px -120px;
+  background-position: -96px  -120px;
 }
 
 /* line 162, includes/_sprites.scss */
@@ -3086,27 +3086,27 @@ table th[class*="span"],
 
 /* line 178, includes/_sprites.scss */
 .icon-hdd {
-  background-position: 0 -144px;
+  background-position: 0      -144px;
 }
 
 /* line 179, includes/_sprites.scss */
 .icon-bullhorn {
-  background-position: -24px -144px;
+  background-position: -24px  -144px;
 }
 
 /* line 180, includes/_sprites.scss */
 .icon-bell {
-  background-position: -48px -144px;
+  background-position: -48px  -144px;
 }
 
 /* line 181, includes/_sprites.scss */
 .icon-certificate {
-  background-position: -72px -144px;
+  background-position: -72px  -144px;
 }
 
 /* line 182, includes/_sprites.scss */
 .icon-thumbs-up {
-  background-position: -96px -144px;
+  background-position: -96px  -144px;
 }
 
 /* line 183, includes/_sprites.scss */
@@ -3233,15 +3233,15 @@ table th[class*="span"],
   list-style: none;
   background-color: white;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
   *border-bottom-width: 2px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -3453,14 +3453,14 @@ table th[class*="span"],
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 15, includes/_wells.scss */
 .well blockquote {
   border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 /* line 22, includes/_wells.scss */
@@ -3550,7 +3550,7 @@ button.close {
   vertical-align: middle;
   cursor: pointer;
   color: #333333;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   background-color: whitesmoke;
   background-image: -moz-linear-gradient(top, white, #e6e6e6);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
@@ -3560,7 +3560,7 @@ button.close {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3571,9 +3571,9 @@ button.close {
   -moz-border-radius: 4px;
   border-radius: 4px;
   *margin-left: .3em;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 /* line 513, includes/_mixins.scss */
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
@@ -3609,9 +3609,9 @@ button.close {
 .btn.active, .btn:active {
   background-image: none;
   outline: 0;
-  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 /* line 55, includes/_buttons.scss */
 .btn.disabled, .btn[disabled] {
@@ -3627,7 +3627,7 @@ button.close {
 /* line 70, includes/_buttons.scss */
 .btn-large {
   padding: 11px 19px;
-  font-size: 14px;
+  font-size: 17.5px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -3642,7 +3642,7 @@ button.close {
 /* line 81, includes/_buttons.scss */
 .btn-small {
   padding: 2px 10px;
-  font-size: 0px;
+  font-size: 11.9px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -3663,7 +3663,7 @@ button.close {
 /* line 96, includes/_buttons.scss */
 .btn-mini {
   padding: 0px 6px;
-  font-size: 0px;
+  font-size: 10.5px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -3699,13 +3699,13 @@ input[type="button"].btn-block {
 .btn-success.active,
 .btn-info.active,
 .btn-inverse.active {
-  color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /* line 145, includes/_buttons.scss */
 .btn-primary {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #006ccc;
   background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
@@ -3715,7 +3715,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0044CC', GradientType=0);
   border-color: #0044cc #0044cc #002a80;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #0044cc;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3734,7 +3734,7 @@ input[type="button"].btn-block {
 /* line 149, includes/_buttons.scss */
 .btn-warning {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #f9a732;
   background-image: -moz-linear-gradient(top, #fbb450, #f89406);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
@@ -3744,7 +3744,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFBB450', endColorstr='#FFF89406', GradientType=0);
   border-color: #f89406 #f89406 #ad6704;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #f89406;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3763,7 +3763,7 @@ input[type="button"].btn-block {
 /* line 153, includes/_buttons.scss */
 .btn-danger {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #da4e49;
   background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
@@ -3773,7 +3773,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFBD362F', GradientType=0);
   border-color: #bd362f #bd362f #802420;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #bd362f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3792,7 +3792,7 @@ input[type="button"].btn-block {
 /* line 157, includes/_buttons.scss */
 .btn-success {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #5bb65b;
   background-image: -moz-linear-gradient(top, #62c462, #51a351);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
@@ -3802,7 +3802,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF62C462', endColorstr='#FF51A351', GradientType=0);
   border-color: #51a351 #51a351 #387038;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #51a351;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3821,7 +3821,7 @@ input[type="button"].btn-block {
 /* line 161, includes/_buttons.scss */
 .btn-info {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #49afcd;
   background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
@@ -3831,7 +3831,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF5BC0DE', endColorstr='#FF2F96B4', GradientType=0);
   border-color: #2f96b4 #2f96b4 #1f6377;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #2f96b4;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3850,7 +3850,7 @@ input[type="button"].btn-block {
 /* line 165, includes/_buttons.scss */
 .btn-inverse {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #363636;
   background-image: -moz-linear-gradient(top, #444444, #222222);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
@@ -3860,7 +3860,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF444444', endColorstr='#FF222222', GradientType=0);
   border-color: #222222 #222222 black;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #222222;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -4000,17 +4000,17 @@ input[type="submit"].btn.btn-mini {
 
 /* line 49, includes/_button-groups.scss */
 .btn-group > .btn-mini {
-  font-size: 0px;
+  font-size: 10.5px;
 }
 
 /* line 52, includes/_button-groups.scss */
 .btn-group > .btn-small {
-  font-size: 0px;
+  font-size: 11.9px;
 }
 
 /* line 55, includes/_button-groups.scss */
 .btn-group > .btn-large {
-  font-size: 14px;
+  font-size: 17.5px;
 }
 
 /* line 60, includes/_button-groups.scss */
@@ -4075,9 +4075,9 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
-  -webkit-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0), inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0), inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0), inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   *padding-top: 5px;
   *padding-bottom: 5px;
 }
@@ -4107,9 +4107,9 @@ input[type="submit"].btn.btn-mini {
 /* line 131, includes/_button-groups.scss */
 .btn-group.open .dropdown-toggle {
   background-image: none;
-  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 /* line 137, includes/_button-groups.scss */
 .btn-group.open .btn.dropdown-toggle {
@@ -4236,7 +4236,7 @@ input[type="submit"].btn.btn-mini {
 .alert {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
   -webkit-border-radius: 4px;
@@ -4355,7 +4355,7 @@ input[type="submit"].btn.btn-mini {
   font-weight: bold;
   line-height: 20px;
   color: #999999;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
 }
 
@@ -4376,7 +4376,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list .nav-header {
   margin-left: -15px;
   margin-right: -15px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 /* line 68, includes/_navs.scss */
@@ -4389,7 +4389,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   background-color: #0088cc;
 }
 
@@ -4817,9 +4817,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   *zoom: 1;
 }
 /* line 15, includes/_mixins.scss */
@@ -5024,9 +5024,9 @@ input[type="submit"].btn.btn-mini {
 /* line 208, includes/_navbar.scss */
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
-  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* line 214, includes/_navbar.scss */
@@ -5035,9 +5035,9 @@ input[type="submit"].btn.btn-mini {
 }
 /* line 216, includes/_navbar.scss */
 .navbar-fixed-bottom .navbar-inner {
-  -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0);
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* line 226, includes/_navbar.scss */
@@ -5089,9 +5089,9 @@ input[type="submit"].btn.btn-mini {
   color: #555555;
   text-decoration: none;
   background-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
 /* line 274, includes/_navbar.scss */
@@ -5102,7 +5102,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: 5px;
   margin-right: 5px;
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #ededed;
   background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e6e6e6));
@@ -5112,13 +5112,13 @@ input[type="submit"].btn.btn-mini {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF2F2F2', endColorstr='#FFE6E6E6', GradientType=0);
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
 }
 /* line 513, includes/_mixins.scss */
 .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
@@ -5140,9 +5140,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* line 291, includes/_navbar.scss */
@@ -5157,7 +5157,7 @@ input[type="submit"].btn.btn-mini {
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #ccc;
-  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: -7px;
   left: 9px;
@@ -5177,7 +5177,7 @@ input[type="submit"].btn.btn-mini {
 /* line 326, includes/_navbar.scss */
 .navbar-fixed-bottom .nav > li > .dropdown-menu:before {
   border-top: 7px solid #ccc;
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0.2);
   border-bottom: 0;
   bottom: -7px;
   top: auto;
@@ -5265,7 +5265,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
   color: #999999;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 /* line 404, includes/_navbar.scss */
 .navbar-inverse .brand:hover, .navbar-inverse .brand:focus,
@@ -5337,9 +5337,9 @@ input[type="submit"].btn.btn-mini {
   color: white;
   background-color: #515151;
   border-color: #111111;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0), 0 1px 0 rgba(255, 255, 255, 0);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0), 0 1px 0 rgba(255, 255, 255, 0);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0), 0 1px 0 rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
@@ -5364,15 +5364,15 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0 1px 0 white;
   background-color: white;
   border: 0;
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   outline: 0;
 }
 /* line 493, includes/_navbar.scss */
 .navbar-inverse .btn-navbar {
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #0e0e0e;
   background-image: -moz-linear-gradient(top, #151515, #040404);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
@@ -5382,7 +5382,7 @@ input[type="submit"].btn.btn-mini {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF151515', endColorstr='#FF040404', GradientType=0);
   border-color: #040404 #040404 black;
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #040404;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -5442,9 +5442,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 /* line 21, includes/_pagination.scss */
@@ -5526,7 +5526,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 14px;
+  font-size: 17.5px;
 }
 /* line 86, includes/_pagination.scss */
 .pagination-large ul > li:first-child > a,
@@ -5578,14 +5578,14 @@ input[type="submit"].btn.btn-mini {
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 0px;
+  font-size: 11.9px;
 }
 
 /* line 119, includes/_pagination.scss */
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 0px 6px;
-  font-size: 0px;
+  font-size: 10.5px;
 }
 
 /* line 6, includes/_pager.scss */
@@ -5684,15 +5684,15 @@ input[type="submit"].btn.btn-mini {
   margin-left: -280px;
   background-color: white;
   border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   *border: 1px solid #999;
   /* IE6-7 */
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -5885,13 +5885,13 @@ input[type="submit"].btn.btn-mini {
   -moz-background-clip: padding;
   background-clip: padding-box;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
 }
 /* line 28, includes/_popovers.scss */
@@ -5962,7 +5962,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: -11px;
   border-bottom-width: 0;
   border-top-color: #999;
-  border-top-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0.25);
   bottom: -11px;
 }
 /* line 82, includes/_popovers.scss */
@@ -5979,7 +5979,7 @@ input[type="submit"].btn.btn-mini {
   margin-top: -11px;
   border-left-width: 0;
   border-right-color: #999;
-  border-right-color: rgba(0, 0, 0, 0);
+  border-right-color: rgba(0, 0, 0, 0.25);
 }
 /* line 96, includes/_popovers.scss */
 .popover.right .arrow:after {
@@ -5994,7 +5994,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: -11px;
   border-top-width: 0;
   border-bottom-color: #999;
-  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(0, 0, 0, 0.25);
   top: -11px;
 }
 /* line 110, includes/_popovers.scss */
@@ -6011,7 +6011,7 @@ input[type="submit"].btn.btn-mini {
   margin-top: -11px;
   border-right-width: 0;
   border-left-color: #999;
-  border-left-color: rgba(0, 0, 0, 0);
+  border-left-color: rgba(0, 0, 0, 0.25);
 }
 /* line 125, includes/_popovers.scss */
 .popover.left .arrow:after {
@@ -6059,9 +6059,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -6072,9 +6072,9 @@ input[type="submit"].btn.btn-mini {
 a.thumbnail:hover,
 a.thumbnail:focus {
   border-color: #0088cc;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0);
-  -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0);
-  box-shadow: 0 1px 4px rgba(0, 105, 214, 0);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
 
 /* line 44, includes/_thumbnails.scss */
@@ -6141,13 +6141,13 @@ a.thumbnail:focus {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 0px;
+  font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
   color: white;
   vertical-align: baseline;
   white-space: nowrap;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #999999;
 }
 
@@ -6366,9 +6366,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFF9F9F9', GradientType=0);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -6382,7 +6382,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   float: left;
   font-size: 12px;
   text-align: center;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #0d90d1;
   background-image: -moz-linear-gradient(top, #149bdf, #0480be);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
@@ -6391,9 +6391,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   background-image: linear-gradient(to bottom, #149bdf, #0480be);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF149BDF', endColorstr='#FF0480BE', GradientType=0);
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -6405,19 +6405,19 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 68, includes/_progress-bars.scss */
 .progress .bar + .bar {
-  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0);
-  -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0);
-  box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* line 73, includes/_progress-bars.scss */
 .progress-striped .bar {
   background-color: #149bdf;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0)), color-stop(0.75, rgba(255, 255, 255, 0)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   -webkit-background-size: 40px 40px;
   -moz-background-size: 40px 40px;
   -o-background-size: 40px 40px;
@@ -6448,11 +6448,11 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 96, includes/_progress-bars.scss */
 .progress-danger.progress-striped .bar, .progress-striped .bar-danger {
   background-color: #ee5f5b;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0)), color-stop(0.75, rgba(255, 255, 255, 0)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 /* line 101, includes/_progress-bars.scss */
@@ -6470,11 +6470,11 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 104, includes/_progress-bars.scss */
 .progress-success.progress-striped .bar, .progress-striped .bar-success {
   background-color: #62c462;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0)), color-stop(0.75, rgba(255, 255, 255, 0)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 /* line 109, includes/_progress-bars.scss */
@@ -6492,11 +6492,11 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 112, includes/_progress-bars.scss */
 .progress-info.progress-striped .bar, .progress-striped .bar-info {
   background-color: #5bc0de;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0)), color-stop(0.75, rgba(255, 255, 255, 0)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 /* line 117, includes/_progress-bars.scss */
@@ -6514,11 +6514,11 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 120, includes/_progress-bars.scss */
 .progress-warning.progress-striped .bar, .progress-striped .bar-warning {
   background-color: #fbb450;
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0)), color-stop(0.75, rgba(255, 255, 255, 0)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 /* line 7, includes/_accordion.scss */
@@ -6677,7 +6677,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   margin-left: 5px;
   text-indent: -999px;
   background-color: #ccc;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
 }
 /* line 131, includes/_carousel.scss */
@@ -6693,7 +6693,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   bottom: 0;
   padding: 15px;
   background: #333333;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 /* line 149, includes/_carousel.scss */
@@ -6719,7 +6719,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
-  line-height: 20px;
+  line-height: 30px;
   color: inherit;
   background-color: #eeeeee;
   -webkit-border-radius: 6px;
@@ -6736,7 +6736,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 }
 /* line 22, includes/_hero-unit.scss */
 .hero-unit li {
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 7, includes/_utilities.scss */
@@ -6850,7 +6850,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   left: 0;
   top: 0;
   font-weight: bold;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   white-space: nowrap;
   vertical-align: baseline;
 }
@@ -6927,112 +6927,79 @@ html {
   font-size: 62.5%;
 }
 
-/* line 105, global.scss */
-body {
-  margin: 0 auto;
-  width: 1080px;
-  *zoom: 1;
-}
-
-/* line 111, global.scss */
+/* line 107, global.scss */
 body:before,
 body:after {
   content: "";
   display: table;
 }
 
-/* line 115, global.scss */
+/* line 111, global.scss */
 body:after {
   clear: both;
 }
 
-/* line 118, global.scss */
+/* line 114, global.scss */
 body > header {
   *zoom: 1;
   margin-bottom: 20px;
 }
+/* line 117, global.scss */
+body > header .modules {
+  position: relative;
+}
 
-/* line 123, global.scss */
-body > header:before,
+/* line 120, global.scss */
+body .container > header:before,
 body > header:after {
   content: "";
   display: table;
 }
 
-/* line 127, global.scss */
+/* line 124, global.scss */
 body > header:after {
   clear: both;
 }
 
-/* line 130, global.scss */
-body > header .modules {
+/* line 127, global.scss */
+body .container > header .modules {
   position: relative;
-  display: inline;
-  float: left;
-  width: 780px;
-  margin: 0 15px;
   margin-top: 10px;
 }
 
-/* line 138, global.scss */
+/* line 131, global.scss */
 body > header .block {
   float: right;
   margin-left: 10px;
 }
 
-/* line 142, global.scss */
+/* line 135, global.scss */
 #logo {
-  display: inline;
-  float: left;
-  width: 240px;
-  margin: 0 15px;
+  text-align: center;
 }
 
-/* line 148, global.scss */
+/* line 138, global.scss */
 #logo img {
   margin: 30px 0 0 0;
 }
 
-/* line 151, global.scss */
-#center_column {
-  display: inline;
-  float: left;
-  width: 690px;
-  margin: 0 15px;
-}
-
-/* line 157, global.scss */
+/* line 142, global.scss */
 #center_column .block {
   margin-bottom: 40px;
 }
-
-/* line 160, global.scss */
+/* line 145, global.scss */
 #center_column .block h1 {
   font-size: 22px;
   font-size: 2.2rem;
 }
-
-/* line 164, global.scss */
+/* line 149, global.scss */
 #center_column .block h2 {
   font-weight: bold;
   font-size: 16px;
   font-size: 1.6rem;
 }
 
-/* line 169, global.scss */
-.breadcrumb {
-  margin-bottom: 10px;
-}
-
-/* line 172, global.scss */
-.sidebar {
-  display: inline;
-  float: left;
-  width: 150px;
-  margin: 0 15px;
-}
-
-/* line 179, global.scss */
+/* line 157, global.scss */
 .sidebar h1,
 .sidebar > h4 {
   font-size: 16px;
@@ -7040,26 +7007,22 @@ body > header .block {
   border-bottom: 1px solid #9a9a9a;
   margin-bottom: 0.3em;
 }
-
-/* line 185, global.scss */
+/* line 163, global.scss */
 .sidebar h2 {
   font-weight: bold;
   font-size: 12px;
   font-size: 1.2rem;
 }
-
-/* line 190, global.scss */
+/* line 168, global.scss */
 .sidebar p {
   font-size: 11px;
   font-size: 1.1rem;
 }
-
-/* line 194, global.scss */
+/* line 172, global.scss */
 .sidebar a {
   text-decoration: none;
 }
-
-/* line 198, global.scss */
+/* line 176, global.scss */
 .sidebar ul,
 .sidebar ol {
   font-size: 12px;
@@ -7068,109 +7031,89 @@ body > header .block {
   padding-left: 0;
   margin: 0;
 }
-
-/* line 205, global.scss */
+/* line 183, global.scss */
 .sidebar ul li {
   border-bottom: 1px dotted #CCC;
 }
-
-/* line 208, global.scss */
+/* line 186, global.scss */
 .sidebar ul li a {
   display: block;
   padding: 7px 5px;
 }
-
-/* line 212, global.scss */
+/* line 190, global.scss */
 .sidebar ul li a:hover {
   background: #fafafa;
 }
-
-/* line 215, global.scss */
+/* line 193, global.scss */
 .sidebar ul.products li a {
   padding: 0;
 }
-
-/* line 218, global.scss */
+/* line 196, global.scss */
 .sidebar .block {
   margin-bottom: 35px;
 }
-
-/* line 221, global.scss */
+/* line 199, global.scss */
 .sidebar .block .btn {
   display: block;
   margin-top: 10px;
 }
 
-/* line 225, global.scss */
+/* line 205, global.scss */
+.breadcrumb {
+  margin-bottom: 10px;
+}
+
+/* line 208, global.scss */
 body > footer {
   clear: both;
   border-top: 1px solid #9a9a9a;
   padding: 20px 0;
-  display: inline;
-  float: left;
-  width: 1050px;
-  margin: 0 15px;
+  overflow: hidden;
 }
-
-/* line 235, global.scss */
+/* line 214, global.scss */
 body > footer h1,
 body > footer > h4 {
   font-size: 16px;
   font-size: 1.6rem;
   border-bottom: 1px solid #9a9a9a;
 }
-
-/* line 240, global.scss */
+/* line 219, global.scss */
 body > footer h2 {
   font-weight: bold;
   font-size: 15px;
   font-size: 1.5rem;
 }
-
-/* line 247, global.scss */
+/* line 226, global.scss */
 body > footer p,
 body > footer ul,
 body > footer ol {
   font-size: 12px;
   font-size: 1.2rem;
 }
-
-/* line 251, global.scss */
-body > footer .modules {
-  display: block;
-  width: 1110px;
-  margin: 0 -15px;
-  *zoom: 1;
-}
-
-/* line 258, global.scss */
+/* line 231, global.scss */
 body > footer .modules:before,
 body > footer .modules:after {
   content: "";
   display: table;
 }
-
-/* line 262, global.scss */
+/* line 235, global.scss */
 body > footer .modules:after {
   clear: both;
 }
-
-/* line 265, global.scss */
+/* line 238, global.scss */
 body > footer .block {
   display: inline;
   float: left;
   width: 150px;
   margin: 0 15px;
 }
-
-/* line 271, global.scss */
+/* line 244, global.scss */
 body > footer .block ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
-
-/* line 276, global.scss */
+/* line 249, global.scss */
 body > footer .block ul li {
   padding: 0.5em 0 0.5em 0;
 }
@@ -7486,7 +7429,7 @@ body > footer .block ul li {
     box-sizing: border-box;
     float: left;
     margin-left: 2.5641%;
-    *margin-left: 2.5641%;
+    *margin-left: 2.51091%;
   }
   /* line 623, includes/_mixins.scss */
   .row-fluid [class*="span"]:first-child {
@@ -7499,182 +7442,182 @@ body > footer .block ul li {
   /* line 640, includes/_mixins.scss */
   .row-fluid .span1 {
     width: 5.98291%;
-    *width: 5.98291%;
+    *width: 5.92971%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span2 {
     width: 14.52991%;
-    *width: 14.52991%;
+    *width: 14.47672%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span3 {
     width: 23.07692%;
-    *width: 23.07692%;
+    *width: 23.02373%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span4 {
     width: 31.62393%;
-    *width: 31.62393%;
+    *width: 31.57074%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span5 {
     width: 40.17094%;
-    *width: 40.17094%;
+    *width: 40.11775%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span6 {
     width: 48.71795%;
-    *width: 48.71795%;
+    *width: 48.66476%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span7 {
     width: 57.26496%;
-    *width: 57.26496%;
+    *width: 57.21177%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span8 {
     width: 65.81197%;
-    *width: 65.81197%;
+    *width: 65.75877%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span9 {
     width: 74.35897%;
-    *width: 74.35897%;
+    *width: 74.30578%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span10 {
     width: 82.90598%;
-    *width: 82.90598%;
+    *width: 82.85279%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span11 {
     width: 91.45299%;
-    *width: 91.45299%;
+    *width: 91.3998%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span12 {
     width: 100%;
-    *width: 100%;
+    *width: 99.94681%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset1 {
     margin-left: 11.11111%;
-    *margin-left: 11.11111%;
+    *margin-left: 11.00473%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset1:first-child {
     margin-left: 8.54701%;
-    *margin-left: 8.54701%;
+    *margin-left: 8.44063%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset2 {
     margin-left: 19.65812%;
-    *margin-left: 19.65812%;
+    *margin-left: 19.55174%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset2:first-child {
     margin-left: 17.09402%;
-    *margin-left: 17.09402%;
+    *margin-left: 16.98763%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset3 {
     margin-left: 28.20513%;
-    *margin-left: 28.20513%;
+    *margin-left: 28.09875%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset3:first-child {
     margin-left: 25.64103%;
-    *margin-left: 25.64103%;
+    *margin-left: 25.53464%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset4 {
     margin-left: 36.75214%;
-    *margin-left: 36.75214%;
+    *margin-left: 36.64575%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset4:first-child {
     margin-left: 34.18803%;
-    *margin-left: 34.18803%;
+    *margin-left: 34.08165%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset5 {
     margin-left: 45.29915%;
-    *margin-left: 45.29915%;
+    *margin-left: 45.19276%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset5:first-child {
     margin-left: 42.73504%;
-    *margin-left: 42.73504%;
+    *margin-left: 42.62866%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset6 {
     margin-left: 53.84615%;
-    *margin-left: 53.84615%;
+    *margin-left: 53.73977%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset6:first-child {
     margin-left: 51.28205%;
-    *margin-left: 51.28205%;
+    *margin-left: 51.17567%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset7 {
     margin-left: 62.39316%;
-    *margin-left: 62.39316%;
+    *margin-left: 62.28678%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset7:first-child {
     margin-left: 59.82906%;
-    *margin-left: 59.82906%;
+    *margin-left: 59.72268%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset8 {
     margin-left: 70.94017%;
-    *margin-left: 70.94017%;
+    *margin-left: 70.83379%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset8:first-child {
     margin-left: 68.37607%;
-    *margin-left: 68.37607%;
+    *margin-left: 68.26969%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset9 {
     margin-left: 79.48718%;
-    *margin-left: 79.48718%;
+    *margin-left: 79.3808%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset9:first-child {
     margin-left: 76.92308%;
-    *margin-left: 76.92308%;
+    *margin-left: 76.81669%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset10 {
     margin-left: 88.03419%;
-    *margin-left: 88.03419%;
+    *margin-left: 87.92781%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset10:first-child {
     margin-left: 85.47009%;
-    *margin-left: 85.47009%;
+    *margin-left: 85.3637%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset11 {
     margin-left: 96.5812%;
-    *margin-left: 96.5812%;
+    *margin-left: 96.47481%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset11:first-child {
     margin-left: 94.01709%;
-    *margin-left: 94.01709%;
+    *margin-left: 93.91071%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset12 {
     margin-left: 105.12821%;
-    *margin-left: 105.12821%;
+    *margin-left: 105.02182%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset12:first-child {
     margin-left: 102.5641%;
-    *margin-left: 102.5641%;
+    *margin-left: 102.45772%;
   }
 
   /* line 671, includes/_mixins.scss */
@@ -7965,7 +7908,7 @@ body > footer .block ul li {
     box-sizing: border-box;
     float: left;
     margin-left: 2.76243%;
-    *margin-left: 2.76243%;
+    *margin-left: 2.70924%;
   }
   /* line 623, includes/_mixins.scss */
   .row-fluid [class*="span"]:first-child {
@@ -7978,182 +7921,182 @@ body > footer .block ul li {
   /* line 640, includes/_mixins.scss */
   .row-fluid .span1 {
     width: 5.8011%;
-    *width: 5.8011%;
+    *width: 5.74791%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span2 {
     width: 14.36464%;
-    *width: 14.36464%;
+    *width: 14.31145%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span3 {
     width: 22.92818%;
-    *width: 22.92818%;
+    *width: 22.87499%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span4 {
     width: 31.49171%;
-    *width: 31.49171%;
+    *width: 31.43852%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span5 {
     width: 40.05525%;
-    *width: 40.05525%;
+    *width: 40.00206%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span6 {
     width: 48.61878%;
-    *width: 48.61878%;
+    *width: 48.56559%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span7 {
     width: 57.18232%;
-    *width: 57.18232%;
+    *width: 57.12913%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span8 {
     width: 65.74586%;
-    *width: 65.74586%;
+    *width: 65.69266%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span9 {
     width: 74.30939%;
-    *width: 74.30939%;
+    *width: 74.2562%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span10 {
     width: 82.87293%;
-    *width: 82.87293%;
+    *width: 82.81974%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span11 {
     width: 91.43646%;
-    *width: 91.43646%;
+    *width: 91.38327%;
   }
   /* line 640, includes/_mixins.scss */
   .row-fluid .span12 {
     width: 100%;
-    *width: 100%;
+    *width: 99.94681%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset1 {
     margin-left: 11.32597%;
-    *margin-left: 11.32597%;
+    *margin-left: 11.21958%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset1:first-child {
     margin-left: 8.56354%;
-    *margin-left: 8.56354%;
+    *margin-left: 8.45715%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset2 {
     margin-left: 19.8895%;
-    *margin-left: 19.8895%;
+    *margin-left: 19.78312%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset2:first-child {
     margin-left: 17.12707%;
-    *margin-left: 17.12707%;
+    *margin-left: 17.02069%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset3 {
     margin-left: 28.45304%;
-    *margin-left: 28.45304%;
+    *margin-left: 28.34666%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset3:first-child {
     margin-left: 25.69061%;
-    *margin-left: 25.69061%;
+    *margin-left: 25.58422%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset4 {
     margin-left: 37.01657%;
-    *margin-left: 37.01657%;
+    *margin-left: 36.91019%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset4:first-child {
     margin-left: 34.25414%;
-    *margin-left: 34.25414%;
+    *margin-left: 34.14776%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset5 {
     margin-left: 45.58011%;
-    *margin-left: 45.58011%;
+    *margin-left: 45.47373%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset5:first-child {
     margin-left: 42.81768%;
-    *margin-left: 42.81768%;
+    *margin-left: 42.7113%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset6 {
     margin-left: 54.14365%;
-    *margin-left: 54.14365%;
+    *margin-left: 54.03726%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset6:first-child {
     margin-left: 51.38122%;
-    *margin-left: 51.38122%;
+    *margin-left: 51.27483%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset7 {
     margin-left: 62.70718%;
-    *margin-left: 62.70718%;
+    *margin-left: 62.6008%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset7:first-child {
     margin-left: 59.94475%;
-    *margin-left: 59.94475%;
+    *margin-left: 59.83837%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset8 {
     margin-left: 71.27072%;
-    *margin-left: 71.27072%;
+    *margin-left: 71.16434%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset8:first-child {
     margin-left: 68.50829%;
-    *margin-left: 68.50829%;
+    *margin-left: 68.4019%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset9 {
     margin-left: 79.83425%;
-    *margin-left: 79.83425%;
+    *margin-left: 79.72787%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset9:first-child {
     margin-left: 77.07182%;
-    *margin-left: 77.07182%;
+    *margin-left: 76.96544%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset10 {
     margin-left: 88.39779%;
-    *margin-left: 88.39779%;
+    *margin-left: 88.29141%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset10:first-child {
     margin-left: 85.63536%;
-    *margin-left: 85.63536%;
+    *margin-left: 85.52898%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset11 {
     margin-left: 96.96133%;
-    *margin-left: 96.96133%;
+    *margin-left: 96.85494%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset11:first-child {
     margin-left: 94.1989%;
-    *margin-left: 94.1989%;
+    *margin-left: 94.09251%;
   }
   /* line 646, includes/_mixins.scss */
   .row-fluid .offset12 {
     margin-left: 105.52486%;
-    *margin-left: 105.52486%;
+    *margin-left: 105.41848%;
   }
   /* line 647, includes/_mixins.scss */
   .row-fluid .offset12:first-child {
     margin-left: 102.76243%;
-    *margin-left: 102.76243%;
+    *margin-left: 102.65605%;
   }
 
   /* line 671, includes/_mixins.scss */
@@ -8627,9 +8570,9 @@ body > footer .block ul li {
     margin: 10px 0;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 
   /* line 147, includes/_responsive-navbar.scss */

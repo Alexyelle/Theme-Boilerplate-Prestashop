@@ -69,8 +69,8 @@
     </head>
 
     <body {if isset($page_name)}id="{$page_name|escape:'htmlall':'UTF-8'}"{/if} class="{if $hide_left_column}hide-left-column{/if} {if $hide_right_column}hide-right-column{/if}">
-
-	{if !$content_only}
+    <div class="container">
+    {if !$content_only}
         {* Message shown if country is restricted from viewing the store. *}
         {if isset($restricted_country_mode) && $restricted_country_mode}
             <div id="restricted-country">
@@ -79,20 +79,22 @@
         {/if}
 
         {* Header *}
-        <header>
-            <a id="logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}">
+        <header class="row">
+            <a id="logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}" class="span4">
                 <img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}" {/if} />
             </a>
-            <div class="modules">
+            <div class="modules span8">
                 {$HOOK_TOP}
             </div>
         </header>
 
+        <div id="main" class="row">
+
         {* Left sidebar *}
-        <aside id="left_column" class="sidebar">
+        <aside id="left_column" class="span3 sidebar">
             {$HOOK_LEFT_COLUMN}
         </aside>
 
         {* Center content - Uses other template files. *}
-        <div id="center_column">        
-	{/if}
+        <div id="center_column" class="span6">        
+    {/if}

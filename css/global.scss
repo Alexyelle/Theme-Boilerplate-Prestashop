@@ -102,11 +102,7 @@
 html {
   font-size: 62.5%;
 }
-body {
-  margin: 0 auto;
-  width: 1080px;
-  *zoom: 1;
-}
+
 body:before,
 body:after {
   content: "";
@@ -118,8 +114,9 @@ body:after {
 body > header {
   *zoom: 1;
   margin-bottom: 20px;
+  .modules{ position: relative; }
 }
-body > header:before,
+body .container > header:before,
 body > header:after {
   content: "";
   display: table;
@@ -127,12 +124,8 @@ body > header:after {
 body > header:after {
   clear: both;
 }
-body > header .modules {
+body .container > header .modules {
   position: relative;
-  display: inline;
-  float: left;
-  width: 780px;
-  margin: 0 15px;
   margin-top: 10px;
 }
 body > header .block {
@@ -140,143 +133,123 @@ body > header .block {
   margin-left: 10px;
 }
 #logo {
-  display: inline;
-  float: left;
-  width: 240px;
-  margin: 0 15px;
+  text-align: center;
 }
 #logo img {
   margin: 30px 0 0 0;
 }
 #center_column {
-  display: inline;
-  float: left;
-  width: 690px;
-  margin: 0 15px;
-}
-#center_column .block {
-  margin-bottom: 40px;
-}
-#center_column .block h1 {
-  font-size: 22px;
-  font-size: 2.2rem;
-}
-#center_column .block h2 {
-  font-weight: bold;
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-.breadcrumb {
-  margin-bottom: 10px;
+  .block {
+    margin-bottom: 40px;
+  }
+  .block h1 {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
+  .block h2 {
+    font-weight: bold;
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
 }
 .sidebar {
-  display: inline;
-  float: left;
-  width: 150px;
-  margin: 0 15px;
+   h1,
+   > h4 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #9a9a9a;
+    margin-bottom: 0.3em;
+  }
+   h2 {
+    font-weight: bold;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+   p {
+    font-size: 11px;
+    font-size: 1.1rem;
+  }
+   a {
+    text-decoration: none;
+  }
+   ul,
+   ol {
+    font-size: 12px;
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+   ul li {
+    border-bottom: 1px dotted #CCC;
+  }
+   ul li a {
+    display: block;
+    padding: 7px 5px;
+  }
+   ul li a:hover {
+    background: #fafafa;
+  }
+   ul.products li a {
+    padding: 0;
+  }
+   .block {
+    margin-bottom: 35px;
+  }
+   .block .btn {
+    display: block;
+    margin-top: 10px;
+  }
 }
-.sidebar h1,
-.sidebar > h4 {
-  font-size: 16px;
-  font-size: 1.6rem;
-  border-bottom: 1px solid #9a9a9a;
-  margin-bottom: 0.3em;
-}
-.sidebar h2 {
-  font-weight: bold;
-  font-size: 12px;
-  font-size: 1.2rem;
-}
-.sidebar p {
-  font-size: 11px;
-  font-size: 1.1rem;
-}
-.sidebar a {
-  text-decoration: none;
-}
-.sidebar ul,
-.sidebar ol {
-  font-size: 12px;
-  font-size: 1.2rem;
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
-.sidebar ul li {
-  border-bottom: 1px dotted #CCC;
-}
-.sidebar ul li a {
-  display: block;
-  padding: 7px 5px;
-}
-.sidebar ul li a:hover {
-  background: #fafafa;
-}
-.sidebar ul.products li a {
-  padding: 0;
-}
-.sidebar .block {
-  margin-bottom: 35px;
-}
-.sidebar .block .btn {
-  display: block;
-  margin-top: 10px;
+
+.breadcrumb {
+  margin-bottom: 10px;
 }
 body > footer {
   clear: both;
   border-top: 1px solid #9a9a9a;
   padding: 20px 0;
-  display: inline;
-  float: left;
-  width: 1050px;
-  margin: 0 15px;
-}
-body > footer h1,
-body > footer > h4 {
+  overflow: hidden;
+ h1,
+ > h4 {
   font-size: 16px;
   font-size: 1.6rem;
   border-bottom: 1px solid #9a9a9a;
 }
-body > footer h2 {
+h2 {
   font-weight: bold;
   font-size: 15px;
   font-size: 1.5rem;
 }
-body > footer p,
-body > footer ul,
-body > footer ol {
+ p,
+ul,
+ol {
   font-size: 12px;
   font-size: 1.2rem;
 }
-body > footer .modules {
-  display: block;
-  width: 1110px;
-  margin: 0 -15px;
-  *zoom: 1;
-}
-body > footer .modules:before,
-body > footer .modules:after {
+.modules:before,
+ .modules:after {
   content: "";
   display: table;
 }
-body > footer .modules:after {
+.modules:after {
   clear: both;
 }
-body > footer .block {
+.block {
   display: inline;
   float: left;
   width: 150px;
   margin: 0 15px;
 }
-body > footer .block ul {
+ .block ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
-body > footer .block ul li {
+.block ul li {
   padding: 0.5em 0 0.5em 0;
 }
-
+}
 
 /* ------------------------------------------------------------ *
    Responsive Style
