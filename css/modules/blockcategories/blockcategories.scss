@@ -1,0 +1,11 @@
+.blockcategories_footer {
+  *zoom: 1;
+}
+.blockcategories_footer:before,
+.blockcategories_footer:after {
+  content: "";
+  display: table;
+}
+.blockcategories_footer:after {
+  clear: both;
+}

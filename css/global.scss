@@ -1,0 +1,284 @@
+
+@import "compass";
+@import "includes/bootstrap";
+
+.hidden,
+.collapsed {
+  display: none;
+  visibility: hidden;
+}
+.expanded {
+  display: block;
+  visibility: visible;
+}
+.price {
+  font-weight: bold;
+  color: #900;
+}
+.price-discount {
+  text-decoration: line-through;
+  font-style: italic;
+}
+.label {
+  font-size: 11px;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #444444;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #373737), color-stop(1, #515151));
+  background: -ms-linear-gradient(bottom, #373737, #515151);
+  background: -moz-linear-gradient(center bottom, #373737 0%, #515151 100%);
+  border: 1px solid #1e1e1e;
+  display: inline;
+  padding: 3px 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.btn {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  *display: inline;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-shadow: 0 1px 1px #111111;
+  background: #444444;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #373737), color-stop(1, #515151));
+  background: -ms-linear-gradient(bottom, #373737, #515151);
+  background: -moz-linear-gradient(center bottom, #373737 0%, #515151 100%);
+  border: 1px solid #1e1e1e;
+}
+.btn:hover {
+  color: #fff;
+  background: #444444;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #444444), color-stop(1, #636363));
+  background: -ms-linear-gradient(bottom, #444444, #636363);
+  background: -moz-linear-gradient(center bottom, #444444 0%, #636363 100%);
+}
+.btn:active {
+  background: #444444;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #444444), color-stop(1, #252525));
+  background: -ms-linear-gradient(bottom, #444444, #252525);
+  background: -moz-linear-gradient(center bottom, #444444 0%, #252525 100%);
+}
+.btn.exclusive {
+  text-shadow: 0 1px 1px #330000;
+  background: #990000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #800000), color-stop(1, #b30000));
+  background: -ms-linear-gradient(bottom, #800000, #b30000);
+  background: -moz-linear-gradient(center bottom, #800000 0%, #b30000 100%);
+  border: 1px solid #4d0000;
+}
+.btn.exclusive:hover {
+  background: #990000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #990000), color-stop(1, #d60000));
+  background: -ms-linear-gradient(bottom, #990000, #d60000);
+  background: -moz-linear-gradient(center bottom, #990000 0%, #d60000 100%);
+}
+.btn.exclusive:active {
+  background: #990000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #990000), color-stop(1, #5c0000));
+  background: -ms-linear-gradient(bottom, #990000, #5c0000);
+  background: -moz-linear-gradient(center bottom, #990000 0%, #5c0000 100%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0 auto;
+  width: 1080px;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body > header {
+  *zoom: 1;
+  margin-bottom: 20px;
+}
+body > header:before,
+body > header:after {
+  content: "";
+  display: table;
+}
+body > header:after {
+  clear: both;
+}
+body > header .modules {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 780px;
+  margin: 0 15px;
+  margin-top: 10px;
+}
+body > header .block {
+  float: right;
+  margin-left: 10px;
+}
+#logo {
+  display: inline;
+  float: left;
+  width: 240px;
+  margin: 0 15px;
+}
+#logo img {
+  margin: 30px 0 0 0;
+}
+#center_column {
+  display: inline;
+  float: left;
+  width: 690px;
+  margin: 0 15px;
+}
+#center_column .block {
+  margin-bottom: 40px;
+}
+#center_column .block h1 {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+#center_column .block h2 {
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.breadcrumb {
+  margin-bottom: 10px;
+}
+.sidebar {
+  display: inline;
+  float: left;
+  width: 150px;
+  margin: 0 15px;
+}
+.sidebar h1,
+.sidebar > h4 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #9a9a9a;
+  margin-bottom: 0.3em;
+}
+.sidebar h2 {
+  font-weight: bold;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+.sidebar p {
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar ul,
+.sidebar ol {
+  font-size: 12px;
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+.sidebar ul li {
+  border-bottom: 1px dotted #CCC;
+}
+.sidebar ul li a {
+  display: block;
+  padding: 7px 5px;
+}
+.sidebar ul li a:hover {
+  background: #fafafa;
+}
+.sidebar ul.products li a {
+  padding: 0;
+}
+.sidebar .block {
+  margin-bottom: 35px;
+}
+.sidebar .block .btn {
+  display: block;
+  margin-top: 10px;
+}
+body > footer {
+  clear: both;
+  border-top: 1px solid #9a9a9a;
+  padding: 20px 0;
+  display: inline;
+  float: left;
+  width: 1050px;
+  margin: 0 15px;
+}
+body > footer h1,
+body > footer > h4 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #9a9a9a;
+}
+body > footer h2 {
+  font-weight: bold;
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+body > footer p,
+body > footer ul,
+body > footer ol {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+body > footer .modules {
+  display: block;
+  width: 1110px;
+  margin: 0 -15px;
+  *zoom: 1;
+}
+body > footer .modules:before,
+body > footer .modules:after {
+  content: "";
+  display: table;
+}
+body > footer .modules:after {
+  clear: both;
+}
+body > footer .block {
+  display: inline;
+  float: left;
+  width: 150px;
+  margin: 0 15px;
+}
+body > footer .block ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+body > footer .block ul li {
+  padding: 0.5em 0 0.5em 0;
+}
+
+
+/* ------------------------------------------------------------ *
+   Responsive Style
+ * ------------------------------------------------------------ */
+@import "includes/responsive";

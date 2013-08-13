@@ -1,0 +1,125 @@
+/* line 1, comparator.scss */
+table#product_comparison {
+  width: 100%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 6, comparator.scss */
+#product_comparison tr.comparison_header {
+  font-weight: bold;
+}
+
+/* line 7, comparator.scss */
+#product_comparison td {
+  padding: 6px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  vertical-align: top;
+}
+
+/* line 13, comparator.scss */
+#product_comparison td.td_empty {
+  border: none;
+  background: #fff;
+}
+
+/* line 18, comparator.scss */
+#product_comparison tr.comparison_header,
+#product_comparison td.comparison_feature_even {
+  background: #f8f8f8;
+}
+
+/* line 20, comparator.scss */
+#product_comparison .product_image {
+  display: block;
+  text-align: center;
+}
+
+/* line 24, comparator.scss */
+#product_comparison .product_image img {
+  border: 1px solid #ccc;
+}
+
+/* line 25, comparator.scss */
+#product_comparison h5 {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+/* line 30, comparator.scss */
+#product_comparison .product_desc {
+  padding-bottom: 5px;
+  height: 40px;
+  color: #666666;
+}
+
+/* line 35, comparator.scss */
+#product_comparison .lnk_more {
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #0088cc;
+  background: url(../../img/arrow_right_1.png) no-repeat 0 4px transparent;
+}
+
+/* line 43, comparator.scss */
+.prices_container {
+  height: 50px;
+}
+
+/* line 44, comparator.scss */
+.price_container {
+  padding-bottom: 10px;
+}
+
+/* line 45, comparator.scss */
+#product_comparison .price {
+  font-weight: bold;
+  font-size: 14px;
+  color: #990000;
+}
+
+/* line 50, comparator.scss */
+.discount {
+  display: inline-block;
+  padding: 1px 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background: #9b0000;
+}
+
+/* line 60, comparator.scss */
+.comparison_availability_statut {
+  display: none;
+}
+
+/* line 62, comparator.scss */
+#product_comparison .cmp_remove {
+  display: block;
+  margin-bottom: 10px;
+  padding-right: 16px;
+  font-weight: bold;
+  text-align: right;
+  background: url(../../img/icon/delete.gif) no-repeat 100% 1px transparent;
+}
+
+/* line 71, comparator.scss */
+.ajax_add_to_cart_button {
+  margin-left: 9px;
+  padding-left: 20px !important;
+}
+
+/* line 75, comparator.scss */
+.ajax_add_to_cart_button span {
+  display: block;
+  position: absolute;
+  top: -1px;
+  height: 26px;
+  left: -12px;
+  width: 26px;
+  background: url(../../img/icon/pict_add_cart.png) no-repeat 0 0 transparent;
+}

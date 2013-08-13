@@ -1,0 +1,34 @@
+.blockspecials {
+  position: relative;
+  *zoom: 1;
+}
+.blockspecials:before,
+.blockspecials:after {
+  content: "";
+  display: table;
+}
+.blockspecials:after {
+  clear: both;
+}
+.blockspecials img {
+  float: left;
+  max-width: 50%;
+}
+.blockspecials h2 {
+  margin: 1.5em 0;
+}
+.blockspecials span {
+  display: block;
+}
+.blockspecials span.price {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+.blockspecials span.label {
+  top: 55%;
+}
+.blockspecials h2,
+.blockspecials span.price,
+.blockspecials span.price-discount {
+  padding-left: 55%;
+}

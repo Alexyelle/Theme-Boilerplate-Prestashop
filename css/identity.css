@@ -1,0 +1,115 @@
+/* line 1, identity.scss */
+#identity #left_column {
+  display: none;
+}
+
+/* line 2, identity.scss */
+#identity #center_column {
+  width: 757px;
+}
+
+/* line 4, identity.scss */
+#identity h3 {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+/* line 8, identity.scss */
+#identity p {
+  padding-bottom: 10px;
+}
+
+/* line 10, identity.scss */
+#identity form.std fieldset {
+  margin-top: 0;
+  padding: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #eeeeee;
+}
+
+/* line 19, identity.scss */
+#identity .std p.required {
+  color: #333;
+}
+
+/* line 23, identity.scss */
+#identity .std p.text label,
+#identity .std p.password label,
+#identity .std p.select label {
+  display: inline-block;
+  padding-right: 10px;
+  width: 174px;
+  /* 184 */
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+}
+
+/* line 33, identity.scss */
+#identity .std p.text label sup,
+#identity .std p.password label sup,
+#identity .std p.select label sup {
+  color: #990000;
+}
+
+/* line 36, identity.scss */
+#identity .std p.text input,
+#identity .std p.password input {
+  padding: 0 5px;
+  height: 20px;
+  width: 253px;
+  /* 263 */
+  border: 1px solid #ccc;
+  background: url(../img/bg_input.png) repeat-x 0 0 white;
+}
+
+/* line 44, identity.scss */
+#identity .std p.select select {
+  border: 1px solid #cccccc;
+}
+
+/* line 48, identity.scss */
+#identity .std p.radio span {
+  display: inline-block;
+  padding-right: 10px;
+  width: 174px;
+  /* 184 */
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+}
+
+/* line 56, identity.scss */
+#identity .std p.radio input {
+  padding: 0 5px;
+  height: auto;
+  width: auto;
+  border: none;
+  background: none;
+}
+
+/* line 64, identity.scss */
+#identity .std p.checkbox input {
+  position: relative;
+  top: 2px;
+  left: 0;
+  margin: 0 2px 0 187px;
+}
+
+/* line 71, identity.scss */
+#identity .std p.submit {
+  padding: 10px 0 20px 187px;
+}
+
+/* line 72, identity.scss */
+#identity .std p.submit .button {
+  padding: 5px 25px;
+}
+
+/* line 74, identity.scss */
+#identity .std #security_informations {
+  padding: 0 0 0 187px;
+  font-size: 11px;
+}
