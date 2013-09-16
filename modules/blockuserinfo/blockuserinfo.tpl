@@ -19,7 +19,7 @@
 
 
 {* Cart summary in header *}
-<section id="cart_block" class="blockuserinfo-cart">
+<section id="shopping_cart" class="blockuserinfo-cart">
 	<a href="{$link->getPageLink("$order_process", true)}" title="{l s='Your Shopping Cart' mod='blockuserinfo'}">
 		<span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
 		<span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">{l s='product' mod='blockuserinfo'}</span>
@@ -38,12 +38,3 @@
 		<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='Your cart is empty' mod='blockuserinfo'}</span>
 	</a>
 </section>
-
-<script type="text/javascript">
-	$(function() {
-		$('.blockuserinfo-cart a,header .blockcart').hover(function(){
-			$('header .blockcart').stop().slideToggle('fast');
-		});
-
-	});
-</script>
